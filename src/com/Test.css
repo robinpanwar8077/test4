@@ -1,0 +1,107 @@
+/* *{
+    background-color: blueviolet;
+} */
+
+.lin{
+  color: black;
+  
+}
+
+
+.main{
+    border: solid black;
+    /* border-radius: 20pc; */
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 60px;
+    margin-right:60px;
+    padding: 10px;
+    background-color: rgba(0,0,0,.55);
+    opacity: 0;
+  transform: translateY(-20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  animation-name: formAnimation;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+@keyframes formAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.main.animate {
+ 
+  opacity: 1;
+  transform: translateY(0);
+}
+nav{
+  text-decoration-color: red;
+}
+
+.navb{
+  width: 100%;
+  background-color: rgba(0,0,0,.55);
+  height: 76px;
+}
+.navclass{
+  
+  padding: 10px;
+  
+}
+
+.my-form {
+    border-radius: 40pc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+  }
+  
+  .main-label {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .form-input {
+    background-color: #f2f2f2;
+    width: 300px;
+    padding: 18px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  .form-checkbox {
+    margin-left: 5px;
+  }
+  #a{
+    background-color: #f2f2f2;
+    padding: 5px;
+  }
+  
+  .form-button {
+    padding: 8px 16px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .form-button:hover {
+    background-color: #45a049;
+  }
+  .label {
+    text-emphasis-position: 2px;
+    margin: 5px;
+    background-color: #f2f2f2;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
